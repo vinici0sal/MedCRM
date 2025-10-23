@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -9,32 +9,45 @@
 </head>
 
 <body>
+    <script src="Login/new.js"></script>
 
     <div class="center">
+
         <div id="container">
+
             <div id="formulario">
-                <form action="#" method="get">
+
+                <form action="" method="get">
+
                     <label>
                         Nome:
-                    </label><input type="text">
+                    </label><input type="text" id="name">
+
                     <label>
                         Senha:
-                        <input type="password">
-                    </label>
-                    <button type="submit">
+
+                    </label><input type="password" id="senha">
+
+                    <button type="submit" id="botao" onclick="dispare()">
                         Enviar
-                    </button>
-                </form>
-                <div id="link_redefinir">
-                    <a href="Redefinir Senha/SenhaNova.html">
+                    </button><br>
+                    <br>
+                    <a href="Redefinir Senha/SenhaNova.html" id="link">
                         <p>
                             Esqueceu A Senha? Clique Aqui
                         </p>
                     </a>
-                </div>
+
             </div>
+
+            </form>
+
         </div>
+
     </div>
+
+    </div>
+
 </body>
 
 </html>
